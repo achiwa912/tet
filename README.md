@@ -17,6 +17,9 @@ This is my first Python program.
 
 <h3>Game view</h3>
 
+* Space bar - pause/cancel
+* ESC key - quit game
+
 player 1
 * Left arrow or "A" key - move left
 * Right arrow or "D" key - move right
@@ -28,15 +31,15 @@ player 2
 * "I" key - rotate for 2nd player
 * "K" key - drop for 2nd player
 
-* Space bar - pause/cancel
-* ESC key - quit game
-
-<h2>Used resources</h2>
+<h2>License</h2>
 
 Thank you very much for the great library, images and sound effect data.
+These copyrights are owned by the authors.
+Visit their web pages for license information.
 
 * Uses Python arcade library: https://arcade.academy/index.html                 
 * Background images are from https://pixabay.com/                               
 * Sound data are from 魔王魂 at https://maoudamashii.jokersounds.com/ 
 
-Python script copyrights by Kyosuke Achiwa, 2020, distributing under the MIT license
+Zen Tetris Python script copyright (C) 2020 Kyosuke Achiwa, 2020
+

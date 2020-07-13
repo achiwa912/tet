@@ -1,4 +1,4 @@
-# Tetris clone with two-player battle mode
+# Zen Tetris - Tetris clone with two-player battle mode
 # Uses Python arcade library: https://arcade.academy/index.html
 # Background images are from https://pixabay.com/
 # Sound data are from 魔王魂 at https://maoudamashii.jokersounds.com/
@@ -63,7 +63,7 @@ class TitleView(arcade.View):
             arcade.draw_text(f"High Score: {self.window.high_score}",
                              WIDTH/2-40, HEIGHT-30, arcade.color.WHITE, 14)
         else:
-            arcade.draw_text("Tetris", WIDTH/2, HEIGHT/2,
+            arcade.draw_text("Zen Tetris", WIDTH/2, HEIGHT/2,
                              arcade.color.WHITE, font_size=50,
                              anchor_x="center")
             
@@ -603,6 +603,8 @@ def main():
     window.game_over = False
     window.game_mode = 0 # game mode dummy number
     window.debug = False # Show performamce info
+    width, height = window.get_size()
+    window.set_viewport(0, width, 0, height)
     title_view = TitleView()
     title_view.window = window
     window.show_view(title_view)
