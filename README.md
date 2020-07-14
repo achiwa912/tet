@@ -1,19 +1,39 @@
 # Zen Tetris
-Tetris clone with 2-player-battle mode written in Python
 
-This is my first Python program.
+Zen Tetris is yet another Tetris clone written in Python.
+Sounds not interesting?
+Understand...but wait.  This is not an ordinally Tetris clone.
+So, what are good about Zen Tetris?
+
+* Cool, Zen-feeling opening view (Look at the drifting buddha statue!)
+* Good old 1-player mode with a stunning, rotating background
+* Exciting two-player battle mode (Yey!)
+
+Um.  Two of the three above items are thanks to beautiful images I borrowed from someone on the net... And by the way, this is my first Python program.
+I hope you'll enjoy the game.
 
 <h2>How to run game</h2>
 
+* Download tet.py, images and sounds folder in the same folder
 * pip3 install arcade
 * python tet.py
 
 <h2>How to play</h2>
 
+Zen Tetris has two modes.
+In 1-player mode, you can play a good, old Tetris.
+In 2-player battle mode, two players can "battle" with Tetris.  If one player deletes more than one lines, (deleted lines - 1) lines will be added to the other player's play area.  Wow, sounds exciting!
+
+![1-player mode](https://github.com/achiwa912/tet/blob/screenshots/oneplayer.png)
+
+![battle mode](https://github.com/achiwa912/tet/blob/screenshots/battle.png)
+
 <h3>Title/gameover view</h3>
 
 * Push "O" key to play 1-player game
 * Push "T" key to play 2-player battle game
+
+![tile view](https://github.com/achiwa912/tet/blob/screenshots/title.png)
 
 <h3>Game view</h3>
 
@@ -34,12 +54,12 @@ player 2
 <h2>License</h2>
 
 Thank you very much for the great library, images and sound effect data.
-These copyrights are owned by the authors.
+Copyrights of these resources are owned by the authors.
 Visit their web pages for license information.
 
-* Uses Python arcade library: https://arcade.academy/index.html                 
-* Background images are from https://pixabay.com/                               
-* Sound data are from 魔王魂 at https://maoudamashii.jokersounds.com/ 
+* Uses Python arcade library: https://arcade.academy/index.html
+* Background images are from https://pixabay.com/
+* Sound data are from 魔王魂 at https://maoudamashii.jokersounds.com/
 
-Zen Tetris Python script copyright (C) 2020 Kyosuke Achiwa, 2020
+Zen Tetris - Copyright (C) 2020 Kyosuke Achiwa
 
